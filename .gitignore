@@ -1,0 +1,26 @@
+Rdata/soc1.RData
+Rdata/soc2.RData
+~WRL0003.tmp
+__pycache__/get_news_json.cpython-35.pyc
+~WRL3363.tmp
+~$고리 분석 계획.docx
+ratings_test.txt
+test_konlpy.py
+ratings_train.txt
+json_file/
+test.py
+all_news_word_freq.json
+naive_classifier 2.pickle
+naive_classifier1.pickle
+naive_classifierc.pickle
+all_news_word_featuresets_big_cat_ver_small_size.json
+all_news_word_featuresets_small_cat_ver.json
+all_news.json
+all_news_del_under1000.json
+all_news_word_featuresets_big_cat_ver.json
+all_news_word_freq.json
+all_news_word_featuresets_changed_cat_ver.json
+naive_classifier 1-small_category.pickle
+naive_classifier 2-big_category.pickle
+카테고리 분석 계획.docx
+카테고리 분석 계획.txt
