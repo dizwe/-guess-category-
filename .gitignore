@@ -24,3 +24,4 @@ naive_classifier 1-small_category.pickle
 naive_classifier 2-big_category.pickle
 카테고리 분석 계획.docx
 카테고리 분석 계획.txt
+__pycache__/get_sentence_and_test.cpython-35.pyc
