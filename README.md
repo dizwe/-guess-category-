@@ -40,9 +40,9 @@ How to Use
 
 시작하기
 -------------
-    import 4get_sentence_and_test #모듈 import
+    from get_sentence_and_test import Guess #모듈 import
 	
-    trained_classifier = Guess(_'naive_classifier3.pickle'_)
+    trained_classifier = Guess('naive_classifier3.pickle')
     
     #다운받은 pickle의 이름('naive_classifier 3.pickle')을 입력합니다.
   
@@ -51,11 +51,11 @@ object를 return합니다.
   
 *주의* : 4get_sentence_and_test.py와 naive_classifier3.pickle을 현재 디렉토리(ex.C://Python35)에 저장해주세요.  
   
-url로 카테고리 분석하기) 
+url로 카테고리 분석하기 
 -------------
 url의 본문 및 제목을 크롤링해 카테고리와 확률을 리턴합니다.
 
-    category,probability = trained_classifier.by_url(_'https://wikidocs.net/16'_)
+    category,probability = trained_classifier.by_url('https://wikidocs.net/16')
     
     #분석을 원하는 url을 입력하시면 됩니다.
 		
@@ -65,7 +65,7 @@ url의 본문 및 제목을 크롤링해 카테고리와 확률을 리턴합니�
 -------------
 문장을 읽고 카테고리와 확률을 리턴합니다.
     
-    trained_classifier.by_sentence(_'최고존엄 훼손...오바마 떠나기전 백악관 없어질 것'_)
+    category,probability = trained_classifier.by_sentence('최고존엄 훼손...오바마 떠나기전 백악관 없어질 것')
     
 		#분석을 원하는 문장을 입력하시면 됩니다.
 
