@@ -49,7 +49,7 @@ How to Use
 object를 return합니다.
 	
   
-*주의* : 4get_sentence_and_test.py와 naive_classifier3.pickle을 현재 디렉토리(ex.C://Python35)에 저장해주세요.  
+*주의* : get_sentence_and_test.py와 naive_classifier3.pickle을 현재 디렉토리(ex.C://Python35)에 저장해주세요.  
   
 url로 카테고리 분석하기 
 -------------
@@ -59,7 +59,7 @@ url의 본문 및 제목을 크롤링해 카테고리와 확률을 리턴합니�
     
     #분석을 원하는 url을 입력하시면 됩니다.
 		
->    return 값: str category(추정되는 카테고리)ex.'soc',   list probability(카테고리별 확률)ex.[(0.1,'soc'),(0.7,'eco')...]}
+>    return 값: str category(추정되는 카테고리)ex.'사회',   list probability(카테고리별 확률)ex.[(0.1,'사회'),(0.7,'경제')...]}
   
 문장으로 카테고리 분석하기
 -------------
@@ -69,4 +69,12 @@ url의 본문 및 제목을 크롤링해 카테고리와 확률을 리턴합니�
     
 		#분석을 원하는 문장을 입력하시면 됩니다.
 
->    return 값: str category(추정되는 카테고리)ex.'soc',	   list probability(카테고리별 확률)ex.[(0.1,'soc'),(0.7,'eco')...]}
+>    return 값: str category(추정되는 카테고리)ex.'사회',	   list probability(카테고리별 확률)ex.[(0.1,'사회'),(0.7,'경제')...]}
+
+Update History
+-------------
+ver 1.01
+ 
+    ● 카테고리와 확률 리턴값을 한글로 바꿈
+ 
+    ● URL 오류가 날때 알려주는 기능 추가
